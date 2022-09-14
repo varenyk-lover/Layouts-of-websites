@@ -1,0 +1,154 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+  margin: 50px auto;
+  width: 1000px;
+  height: 700px;
+  background-color: #7690A8;
+}
+
+.card-back {
+  width: 209px;
+  height: 303px;
+  background-image: url("../assets/images/card-back.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.flex-container:hover .kc, .flex-container:hover .kd, .flex-container:hover .ks, .flex-container:hover .kh,
+.flex-container:hover .ac, .flex-container:hover .ad, .flex-container:hover .as, .flex-container:hover .ah {
+  animation-play-state: paused;
+}
+
+.kc {
+  animation: king-clubs 2.5s infinite 1s;
+}
+
+@keyframes king-clubs {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+    background-image: url("../assets/images/KC.svg");
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+.kd {
+  animation: king-diamonds 2.5s infinite 2s;
+}
+
+@keyframes king-diamonds {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+    background-image: url("../assets/images/KD.svg");
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+.ks {
+  animation: king-spades 2.5s infinite 3s;
+}
+
+@keyframes king-spades {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+    background-image: url("../assets/images/KS.svg");
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+.kh {
+  animation: king-hearts 2.5s infinite 4s;
+}
+
+@keyframes king-hearts {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+    background-image: url("../assets/images/KH.svg");
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+.ac {
+  animation: ace-clubs 2.5s infinite 5s;
+}
+
+@keyframes ace-clubs {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+    background-image: url("../assets/images/AC.svg");
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+.ad {
+  animation: ace-diamonds 2.5s infinite 6s;
+}
+
+@keyframes ace-diamonds {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+    background-image: url("../assets/images/AD.svg");
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+.as {
+  animation: ace-spades 2.5s infinite 7s;
+}
+
+@keyframes ace-spades {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+    background-image: url("../assets/images/AS.svg");
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+.ah {
+  animation: ace-hearts 2.5s infinite 8s;
+}
+
+@keyframes ace-hearts {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+    background-image: url("../assets/images/AH.svg");
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
