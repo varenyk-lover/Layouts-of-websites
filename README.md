@@ -2,7 +2,7 @@
 Hello, here you can find examples of layouts that were made with Figma templates: https://varenyk-lover.github.io/Layouts-of-websites/
 
 More info:
-1. Productly layout — HTML, CSS. One of my first layouts.
+1. Productly layout — HTML, CSS. My first layout with extra fonts.
 
 2. Responsive Denis Novik layout — HTML, SCSS, JS. The task was also to make it responsive, adaptive and to find ready solution in JavaScript for burger navbar menu.
 
